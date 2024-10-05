@@ -13,9 +13,9 @@ LIGHT='\033[0;37m'
 # ==========================================
 clear
 apt install jq curl socat -y
-DOMAIN=drasia.online
+DOMAIN=bian-ws.suryafebri.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c6)
-SUB_DOMAIN=${sub}.drasia.online
+SUB_DOMAIN=${sub}.bian-ws.suryafebri.xyz
 CF_ID=gyro.elite@gmail.com
 CF_KEY=7e4beb2b60f992a15f4c65f11caa3faea0855
 set -euo pipefail
